@@ -1,10 +1,13 @@
-package com.robsonmrsp.jwt;
+package com.robsonmrsp.jwt.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.robsonmrsp.jwt.model.User;
+import com.robsonmrsp.jwt.repository.UserRepository;
 
 @Service
 @Transactional

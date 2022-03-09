@@ -1,4 +1,4 @@
-package com.robsonmrsp.jwt;
+package com.robsonmrsp.jwt.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -6,6 +6,8 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Service;
+
+import com.robsonmrsp.jwt.model.User;
 
 @Service
 public class AuthenticationService {

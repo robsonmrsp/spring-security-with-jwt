@@ -1,4 +1,4 @@
-package com.robsonmrsp.jwt;
+package com.robsonmrsp.jwt.utilities;
 
 public class JWTUtils {
 

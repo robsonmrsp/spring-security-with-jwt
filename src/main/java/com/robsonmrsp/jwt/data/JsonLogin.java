@@ -1,4 +1,4 @@
-package com.robsonmrsp.jwt;
+package com.robsonmrsp.jwt.data;
 
 public class JsonLogin {
 	private String username;

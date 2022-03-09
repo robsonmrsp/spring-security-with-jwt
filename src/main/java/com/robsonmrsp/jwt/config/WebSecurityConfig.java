@@ -1,4 +1,4 @@
-package com.robsonmrsp.jwt;
+package com.robsonmrsp.jwt.config;
 
 import java.util.Optional;
 
@@ -16,6 +16,11 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
+import com.robsonmrsp.jwt.http.filter.JWTAuthenticationFilter;
+import com.robsonmrsp.jwt.model.User;
+import com.robsonmrsp.jwt.service.JWTTokenService;
+import com.robsonmrsp.jwt.service.UserService;
 
 @Configuration
 @EnableWebSecurity

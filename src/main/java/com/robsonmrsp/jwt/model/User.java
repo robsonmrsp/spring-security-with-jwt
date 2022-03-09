@@ -1,4 +1,4 @@
-package com.robsonmrsp.jwt;
+package com.robsonmrsp.jwt.model;
 
 import java.util.Arrays;
 import java.util.Collection;
